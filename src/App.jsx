@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import "./index.css";
 
 const Listing = React.lazy(() => import('listing/App'));
 
