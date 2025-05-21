@@ -56,9 +56,9 @@ module.exports = {
     ],
   },
   plugins: [
-     new MiniCssExtractPlugin({
-      filename: "[name].[contenthash].css",
-    }),
+    //  new MiniCssExtractPlugin({
+    //   filename: "[name].[contenthash].css",
+    // }),
     new ModuleFederationPlugin({
       name: "homePage",
       filename: "remoteEntry.js",
