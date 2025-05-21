@@ -147,7 +147,7 @@ module.exports = {
       name: "homePage",
       filename: "remoteEntry.js",
       remotes: {
-        listing: "listing@http://localhost:3002/remoteEntry.js",
+        listing : "listing@https://listing-mf.vercel.app/remoteEntry.js"
       },
       exposes: {
         "./App": "./src/App.jsx",
